@@ -1,0 +1,413 @@
+input,label,select,textarea {
+    display:block;
+}
+
+input[type='submit'] {
+    display:none;
+}
+
+
+input[type='text'] {
+
+}
+
+input[type='reset'] {
+    display:none;
+}
+
+
+
+
+#wcf_user_form {
+    float:left;
+    margin-right: 20px;
+}
+
+
+////////////////////////////////////////////////////////////////////////////
+
+.wcf_css_2 {
+    padding-left: 10px;
+}
+// wcf_css_1 start
+.wcf_css_1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.wcf_css_1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.wcf_css_1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.wcf_css_1 input[type=text],
+.wcf_css_1 input[type=date],
+.wcf_css_1 input[type=datetime],
+.wcf_css_1 input[type=number],
+.wcf_css_1 input[type=search],
+.wcf_css_1 input[type=time],
+.wcf_css_1 input[type=url],
+.wcf_css_1 input[type=email],
+textarea,
+select{
+    max-width:100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding-left: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none; 
+}
+.wcf_css_1 input[type=text]:focus,
+.wcf_css_1 input[type=date]:focus,
+.wcf_css_1 input[type=datetime]:focus,
+.wcf_css_1 input[type=number]:focus,
+.wcf_css_1 input[type=search]:focus,
+.wcf_css_1 input[type=time]:focus,
+.wcf_css_1 input[type=url]:focus,
+.wcf_css_1 input[type=email]:focus,
+.wcf_css_1 textarea:focus,
+.wcf_css_1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.wcf_css_1 .field-divided{
+    width: 49%;
+}
+
+.wcf_css_1 .field-long{
+    width: 100%;
+}
+.wcf_css_1 .field-select{
+    width: 100%;
+}
+.wcf_css_1 .field-textarea{
+    height: 100px;
+}
+.wcf_css_1 input[type=submit], .wcf_css_1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.wcf_css_1 input[type=submit]:hover, .wcf_css_1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.wcf_css_1 .required{
+    color:red;
+}
+
+// wcf_css_1 end
+
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+// wcf_css_2 start
+
+.wcf_css_2{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.wcf_css_2 fieldset{
+    border: none;
+}
+.wcf_css_2 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.wcf_css_2 label {
+    display: block;
+    margin-bottom: 8px;
+}
+.wcf_css_2 input[type="text"],
+.wcf_css_2 input[type="date"],
+.wcf_css_2 input[type="datetime"],
+.wcf_css_2 input[type="email"],
+.wcf_css_2 input[type="number"],
+.wcf_css_2 input[type="search"],
+.wcf_css_2 input[type="time"],
+.wcf_css_2 input[type="url"],
+.wcf_css_2 textarea,
+.wcf_css_2 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;   
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+
+
+.wcf_css_2 .wcf-single-block {
+    padding-left: 20px; 
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.wcf_css_2 .wcf-new-block {
+    padding-left: 20px; 
+    width: 33%;
+    float: left;
+    clear: both;
+}
+.wcf_css_2 .wcf-label-input {
+    padding-left: 20px; 
+    width: 33%;
+    float: left;
+}
+
+
+.wcf_css_2 input[type="text"]:focus,
+.wcf_css_2 input[type="date"]:focus,
+.wcf_css_2 input[type="datetime"]:focus,
+.wcf_css_2 input[type="email"]:focus,
+.wcf_css_2 input[type="number"]:focus,
+.wcf_css_2 input[type="search"]:focus,
+.wcf_css_2 input[type="time"]:focus,
+.wcf_css_2 input[type="url"]:focus,
+.wcf_css_2 textarea:focus,
+.wcf_css_2 select:focus{
+    background: #d2d9dd;
+}
+.wcf_css_2 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.wcf_css_2 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.wcf_css_2 input[type="submit"],
+.wcf_css_2 input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.wcf_css_2 input[type="submit"]:hover,
+.wcf_css_2 input[type="button"]:hover
+{
+    background: #109177;
+}
+
+
+// wcf_css_2 end
+
+////////////////////////////////////////////////////////////////////////////
+
+
+
+// wcf_css_3 start
+
+.wcf_css_3{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.wcf_css_3 h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.wcf_css_3 input[type="text"],
+.wcf_css_3 input[type="date"],
+.wcf_css_3 input[type="datetime"],
+.wcf_css_3 input[type="email"],
+.wcf_css_3 input[type="number"],
+.wcf_css_3 input[type="search"],
+.wcf_css_3 input[type="time"],
+.wcf_css_3 input[type="url"],
+.wcf_css_3 textarea,
+.wcf_css_3 select
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.wcf_css_3 input[type="text"]:focus,
+.wcf_css_3 input[type="date"]:focus,
+.wcf_css_3 input[type="datetime"]:focus,
+.wcf_css_3 input[type="email"]:focus,
+.wcf_css_3 input[type="number"]:focus,
+.wcf_css_3 input[type="search"]:focus,
+.wcf_css_3 input[type="time"]:focus,
+.wcf_css_3 input[type="url"]:focus,
+.wcf_css_3 textarea:focus,
+.wcf_css_3 select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.wcf_css_3 input[type="submit"],
+.wcf_css_3 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;   
+    color: #fff;
+}
+.wcf_css_3 input[type="submit"]:hover,
+.wcf_css_3 input[type="button"]:hover{
+    background: #2EBC99;
+}
+
+// wcf_css_3 end
+
+
+// die container und block divs..
+
+// 1er container
+
+.container1 {
+    width: 500px;
+}
+.container1 div {
+    
+}
+
+.block-1-1 {
+    float: left; 
+    width: 100%;
+}
+
+
+// 2er Container
+.container2 {
+    width: 500px;
+}
+.container2 div {
+    
+}
+
+.block-2-1 {
+     float: left; 
+    width: 50%;
+}
+.block-2-2 {
+     float: left; 
+    width: 50%;
+}
+
+// 3er Container
+.container3 {
+    width: 500px;
+}
+.container3 div {
+    
+}
+
+.block-3-1 {
+    width: 33%;
+    float: left; 
+}
+.block-3-2 {
+    width: 34%;
+    float: left; 
+}
+.block-3-3 {
+    width: 33%;
+    float: left; 
+}
+
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+} 
+

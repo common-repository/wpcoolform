@@ -1,0 +1,18 @@
+
+
+
+<h2>Formularname: [formname]</h2>
+
+<br>
+<a href="[PAGE_URL]?download_form_id=[FORM_ID]" class="button">Formular herunterladen</a>
+<a href="[PAGE_URL]?create_new_form_page_form_id=[FORM_ID]" class="button">Neue Wordpress-Form-Seite generieren</a>
+<a onclick="deleteFormInit();" class="button">Formular löschen</a>
+<a href="[FORM_PAGE_URL]" class="button">Formularseite anzeigen</a>
+<a href="[PAGE_URL]?download_form_data_id=[FORM_ID]" class="button">CSV-Export</a>
+
+<br>
+<div class="wrap">
+            <div id="icon-users" class="icon32"></div>
+
+
+ 

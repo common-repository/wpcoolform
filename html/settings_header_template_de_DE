@@ -1,0 +1,23 @@
+
+        <div class="wrap">
+            <h2>WpCoolForm Einstellungen</h2>  
+            
+            <h2>Upload Ordner</h2>
+In diesem Ordner werden Ihre angelegten Worddokumente gespeichert. Standardmäßig versucht
+WpCoolForm diese unter wp-admin/uploads/WpCoolForm zu speichern. Wenn dort keine
+Schreibrechte bestehen, kommt es zu Problemen. Ausserdem kann es ein Sicherheitsfeature sein,
+wenn Sie die Formularinformationen nicht über das Web zugänglich speichern.
+<h3>Wichtig:</h3>
+<p>Wenn Sie diesen Ordner nachträglich ändern, müssen Sie zuvor angelegte Formulare bspw. aus 
+wp-admin/uploads/WpCoolForm an die neue Stelle kopieren. Beachten Sie die Schreib/Leseberechtigungen
+für Ihren Webuser (z.B. www-data)!
+</p>
+<h2>Temporärer Ordner</h2>
+Hier werden zum Download angebotene, ausgefüllte Formulare zwischengespeichert. Dieser
+Ordner kann mit der Zeit voll werden. Deshalb könnte es eine gute Idee sein, beispielsweise
+unter Linux hier den /tmp Ordner anzugeben.
+
+ <h2>Aktivierungsschlüssel</h2>
+Wenn Sie auf unserer Homepage Zusatzfunktionen bestellen, erhalten Sie einen Aktivierungsschlüssel, über welchen
+wir Ihnen dann zeitnah neue Funktionen über den Autoupdate-Mechanismuss freischalten können. Wenn Sie keinen
+haben, lassen Sie das Feld einfach leer.

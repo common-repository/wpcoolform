@@ -1,0 +1,64 @@
+
+
+<div id='wcf_box' style='background-color:#FFFFFF;max-width: 800px;margin-left: 20px;margin-top:20px;padding-left: 20px;padding-top:20px;padding-bottom: 20px;padding-right: 20px;'>
+
+
+<h2><img src='[WCF_LOGO]'></h2>
+
+
+<h1>FAQ</h1>
+
+
+<h2>Was sind die Systemvoraussetzungen für WpCoolForm?</h2>
+<ul>
+<li>1. PHP ab Version 5.6.</li>
+<li>2. Wordpress ab Version 4.</li>
+<li>3. Wenn Sie die Bilder-Ersetzung in Ihrem Worddokument verwenden möchten sollte zusätzlich die GD-Lib
+ für PHP installiert sein. Ansonsten muss der Word und der Upload-Bildtyp identisch sein.</li>
+<li>5. WpCoolForm benötigt Schreibrechte auf einem Verzeichnis, was ebenfalls normalerweise der Fall ist. Standardmässig wird unter wp-admin ein Verzeichnis
+'upload' und ein Verzeichnis 'download' angelegt. Diese Verzeichnisse können unter Einstellungen geändert werden.
+</ul>
+
+
+<h2>Wie kann ich dem Besucher das ausgefüllte Dokument senden?</h2>
+
+Fügen Sie Ihrem Formular ein Email-Feld hinzu. Auf der Settings-Seite des Formulars können Sie jetzt
+zum Einen den Typ des Feldes festlegen, in diesem Fall am besten 'email', zum Anderen wählen Sie die Checkbox 'Benachrichtigungsmail'
+aus. Um die Versendung zu gewährleisten sollte das Feld auch noch ein Pflichtfeld sein.
+
+<h2>Kann ich Bilder in das Dokument einpflegen?</h2>
+
+Ja. Erstellen Sie Ihr Word-Dokument wie gewohnt und fügen Sie Bilder hinzu. Wenn
+die Bilder an der richtigen Stelle sind, klicken sie mit der rechten Maustaste auf das
+Bild und fügen Sie eine Beschreibung hinzu. Dort schreiben Sie [wcfimage.Photoalbum1]
+oder [wcfimage.Passbild] hinein. WpCoolForm generiert jetzt einen File-Upload in Ihrem
+Formular mit genau diesem Namen. Läd der Benutzer ein Bild hoch, wird das Bild in Ihrem 
+Dokument ersetzt. 
+
+
+<h2>Wieso funktioniert das Ersetzen von Bildern nicht für bestimmte Bildtypen?</h2>
+
+In Wordfiles können diverse Bildformate hinterlegt werden, der User kann wieder um weitere diverse
+Bildformate hochladen, weshalb unter der Motorhaube einige Umwandlungen laufen. Wenn das hochgeladene
+Bild und das zu ersetzende Bild in Word den gleichen Datentyp haben, sollte alles funktionieren.
+Sie haben also zwei Möglichkeiten:
+<p>Sie fügen in Ihr Wordfile bspw. nur jpg Bilder ein und erlauben Ihren Besuchern gleichfalls nur das Uploaden
+von JPG-Bildern. Dann sollte alles funktionieren.</p>
+<p>Die 2. Möglichkeit ist, daß Sie einen Blick auf Ihre php.ini werfen und ggf. eine Grafik-Bibliothek 
+hinzufügen oder aktivieren.</p>
+
+<h2>WpCoolForm verschickt keine Emails?</h2>
+
+<ul>
+<li>1. Überprüfen Sie, ob Wordpress korrekt für Email konfiguriert ist! Werden grundsätzlich Emails versendet? Dies können
+Sie beispielsweise mit einem geeigneten Email-Checker Plugin überprüfen (google.de).</li>
+<li>2. Ist Ihre Worddatei eventuell etwas größer? In diesem Fall überprüfen Sie bitte, ob Ihr Mailserver eine Größenbegrenzung für
+Email-Anhänge hat.
+</ul>
+
+<h2>Wie kann ich die Reihenfolge der Eingabefelder des HTML-Formulars ändern?</h2>
+
+Gehen Sie auf die Settingsseite des Formulars. Dort können Sie die Eingabefelder ganz einfach per Drag und Drop mit der Maus
+in die richtige Reihenfolge ziehen.
+
+</div>

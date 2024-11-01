@@ -1,0 +1,23 @@
+
+
+
+ <br><br><br>
+<div id='wcf_box' style='background-color:#FFFFFF;max-width: 800px;margin-left: 20px;margin-top:20px;padding-left: 20px;padding-top:20px;padding-bottom: 20px;padding-right: 20px;'>
+<h2><img src='[WCF_LOGO]'></h2>
+   <h2>Neues Formular:</h2>
+<br><br>
+ 
+
+    <form id="datas" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="formular" value="new_form">
+        <input type="hidden" name="action" value="create_form_action">
+        <bold>Formularname</bold> (Pflichtfeld): <p><input type="text" name="formname" required><p></p>
+      
+
+    [WP_FORM_UPLOAD]
+<br><br>
+        <button onclick="return uploadForm();">Formular anlegen</button>
+
+    </form>
+
+</div>

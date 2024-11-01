@@ -1,0 +1,44 @@
+
+
+
+<div id='wcf_box' style='background-color:#FFFFFF;max-width: 800px;margin-left: 20px;margin-top:20px;padding-left: 20px;padding-top:20px;padding-bottom: 20px;padding-right: 20px;'>
+
+<h2><img src='[WCF_LOGO]'></h2>
+
+<h2>Neues Formular anlegen</h2>
+Wählen Sie im Admin-Menü "Neues Formular". Der Formularname erscheint im Admin-Menü
+unter WpCoolForm Daten und WpCoolForm Einstellungen. 
+<p>Sie haben die Möglichkeit ein Word-Dokument im docx oder odt Format hochzuladen.
+</p>
+<p>
+<img style="border:3px solid black;" src="[IMG]example_docx.jpg">
+</p>
+<p>
+Alle Felder der Form [wcf.IhrName], also zB. [wcf.Vorname] oder [wcf.Strasse] werden
+erkannt und als Formularfelder gespeichert. Unter 'WpCoolForm Einstellungen' können
+Sie diese Felder noch weiter bearbeiten.
+</p>
+<p>
+<img style="border:3px solid black;" src="[IMG]example_placeholder.jpg">
+</p>
+<p>
+Sie haben ausserdem die Möglichkeit, Platzhalterbilder in Ihrem Dokument zu definieren.
+</p>
+<p>
+<img style="border:3px solid black;" src="[IMG]example_img_desciption.jpg">
+</p>
+<p>
+Fügen Sie ein Bild in Ihr Dokument ein, klicken Sie mit der rechten Maustaste auf das 
+Bild und schreiben Sie unter Beschreibung den Platzhalter [wcfimage.IhrName]. 
+</p>
+<p>
+<img style="border:3px solid black;" src="[IMG]example_wcfimage.jpg">
+</p>
+<p>
+In Ihrem
+Formular wird ein Bild-Uploadfeld eingefügt mit dem angegebenen Namen.
+</p> 
+</div>
+
+
+<br><br><br>

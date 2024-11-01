@@ -1,0 +1,50 @@
+
+
+<center>
+<h2><img src='[WCF_LOGO]'></h2>
+</center>
+<h2>Die Einstellungen:</h2>
+<p>
+Wenn sie über "Neues Formular" ein neues Formular angelegt haben, werden unter
+WCF Form Settings und unter WCF Form Daten 2 neue Menüeinträge erzeugt.
+Im folgenden werden die Einstellungen für Ihr Formular unter dem Settings-Eintrag
+beschrieben.
+</P>
+<p>
+Unter Formular herunterladen können Sie das aktuell Ihrem Formular hinterlegte
+Word-Dokument heruntergeladen werden. 
+</p>
+<p>
+Formular löscht Ihr Formular samt Daten. Fertigen Sie vor dem Löschen ggf. eine
+Sicherungskopie an.
+</p>
+<p>
+Formular anzeigen zeigt auf die zuletzt generierte Formularseite. Ist diese leer,
+muss zuerst das Formular erzeugt werden (Formular generieren).
+</p>
+<p>
+<h3>Formular generieren</h3>
+Sie haben 2 Möglichkeiten Ihr Formular auf Ihrer Seite darzustellen. Zum einen können
+Sie über Formular generieren eine normale Wordpress-Seite anlegen. Diese können Sie
+dann ganz normal weiter bearbeiten. Beachten Sie, daß Änderungen auf der Settings-Seite
+eine vorher generierte Seite nicht verändern. Nach Settings-Änderungen müssen Sie
+zuerst eine neue Formularseite generieren.<br>
+Die zweite Möglichkkeit ist die Verwendung eines Codes auf einer beliebigen WP Seite oder
+Beitrag. Der Code sieht ungefähr so aus [wcf_145518624974473] und sie finden diesen unter
+<b>Form generieren</b>. Bei dieser Möglichkeit werden alle Änderungen direkt übernommen.
+Bei Möglichkeit 1 sind Sie völlig frei in der Gestaltung, müssen aber bei Änderungen
+neu generieren, bei Möglichkeit 2 werden Änderungen direkt übernommen, allerdings
+haben sie nur die vorgegebenen Gestaltungsmöglichkeiten.
+</p>
+
+
+<p>
+<h3>Neues Wordfile hochladen</h3>
+Hier können Sie ein neues Wordfile hochladen. Die Felder werden kein weiteres Mal
+eingelesen da dies extrem fehleranfällig wäre. Sie müssen neue Felder im Wordfile
+in unserem Form Builder mit exakt gleichem Namen anlegen. 
+</p>
+<p>
+<img style="border:3px solid black;" src="[IMG]example_dd.jpg">
+</p>
+<br><br><br>

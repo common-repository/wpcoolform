@@ -1,0 +1,25 @@
+
+
+
+<h2><img src='[WCF_LOGO]'></h2>
+<p>
+There are two ways to show your form:
+<ul>
+<li>1. Use this code <b>[wcf_id]</b> inside a Wordpress post or page.</li>
+<li>2. Create a Wordpress page (press the generate-button).</li>
+</ul>
+<br><br>
+
+
+<br>
+<a href="[PAGE_URL]?download_form_id=[FORM_ID]" class="button">Download Form</a>
+<a href="[PAGE_URL]?create_new_form_page_form_id=[FORM_ID]" class="button">Create form page</a>
+<a onclick="deleteFormInit();" class="button">Delete form</a>
+<a href="[FORM_PAGE_URL]" class="button">Show form</a>
+
+<br>
+<div class="wrap">
+            <div id="icon-users" class="icon32"></div>
+
+
+ 

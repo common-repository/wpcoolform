@@ -1,0 +1,50 @@
+<div id='wcf_box' style='background-color:#FFFFFF;max-width: 800px;margin-left: 20px;margin-top:20px;padding-left: 20px;padding-top:20px;padding-bottom: 20px;padding-right: 20px;'>
+
+<h2><img src='[WCF_LOGO]'></h2>
+<h1>FAQ</h1>
+
+<h2>How can I send a copy to the User?</h2>
+Add a field [wcf.email] as an email input filed to your form. If the user
+fills in his email, the plugin will send a copy of the word file to that Email address.
+
+<h2>I have changed my form a little bit, but the resulting form hasn't change. Why?</h2>
+
+
+If you use the code of your form, your form is always up to date. But if you've 
+created a wordpress page one time and change something, you have to create a new
+wordpress page. Also keep in mind to update all links to that page.
+
+
+<h2>Is it possible to change the redirection URL?</h2>
+
+
+You find the input field for your redirection URL under Settings->Form Data.
+There are also two checkboxes to append all input fields to the redirection url. So you can create
+multilevel input forms.
+
+
+<h2>The input field mapping of the data table isn't correct, what can I do?</h2>
+
+
+WpCoolForm is very flexible, you can allways change the Form Name, also you can change field names, types,
+you can add and delete fields everytime. Normally this works fine. We suggest not to delete fields if user inputs
+already exists. You may loose these inputs as well. On the other hand adding new fields is allways possible.
+
+
+<h2>What about Captchas?</h2>
+
+
+You have two options:
+<ul>
+<li> Use our inbuild captcha by selecting the checkbox under Settings.
+<li> use reCaptcha. Therefore you need to register at Google. The secret keys you can cut/paste under Settings.
+</ul>
+Our Captcha has two modi. If you have installed a graphical library, every captcha-image is generated
+on the fly. If you don't, we use an existing image which displays a number between 1 and 100.
+
+
+<h2></h2>
+<h2></h2>
+
+
+</div>
